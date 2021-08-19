@@ -1,0 +1,7 @@
+.idea
+.vscode
+test-server
+test-server.pub
+volumes/jenkins/**
+volumes/remote-machine/**
+*.log
