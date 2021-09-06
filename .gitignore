@@ -1,7 +1,6 @@
 .idea
 .vscode
-test-server
-test-server.pub
+certs/**
 volumes/jenkins/**
 volumes/remote-machine/**
 *.log
