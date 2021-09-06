@@ -1,8 +1,0 @@
-pipeline {
-    stages {
-        stage('Test')
-        steps {
-            sh 'mvn -B -DskipTests clean package'
-        }
-    }
-}
