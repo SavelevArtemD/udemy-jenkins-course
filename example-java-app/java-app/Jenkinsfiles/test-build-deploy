@@ -10,6 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'cd example-java-app/java-app'
+                sh 'ls'
                 sh 'mvn -B -DskipTests clean package'
             }
         }
